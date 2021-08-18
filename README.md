@@ -1,3 +1,4 @@
 # leandrochs.github.io
-Repositório Para Potfólio GitHub Pages
-O resultado deste repositório pode ser conferido em [https://leandrochs.github.io/](https://leandrochs.github.io/)
+Repositório Para Potfólio GitHub Pages ,<br>
+O resultado fica visível em <br> 
+[https://leandrochs.github.io/](https://leandrochs.github.io/)
