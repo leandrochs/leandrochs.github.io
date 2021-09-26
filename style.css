@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
@@ -12,8 +17,9 @@ h1 , h2 {
   background-color: rgb(3, 107, 82);
   border-bottom: 7px solid rgb(47, 193, 140);
   display: flex;
-  margin: -8px -12px 5px;
- }
+  height: 10vh;
+  padding: 10px 0;
+}
 
 #title-container {
   margin: auto;
@@ -27,7 +33,6 @@ h1 , h2 {
 #title {
   color: rgb(253, 255, 255);
   letter-spacing: 2.5px;
-  /* margin: 17.44px 72px; */
 }
 
 #nav {
@@ -46,7 +51,6 @@ h1 , h2 {
   align-items: center;
   display: flex;
   margin: 7% auto;
-  /* padding-top: 3%; */
   text-align: center;
 }
 
@@ -63,9 +67,7 @@ h1 , h2 {
 
 #initial-text-container {
   align-items: center;
-  /* display: flex; */
   margin-left: auto;
-  /* margin-right: 7%; */
 }
 
 #namassa {
@@ -93,18 +95,14 @@ h1 , h2 {
 #about-me-container {
   background-color: rgb(222, 236, 237);
   display: flex;
-  /* padding-top: 94px; */
-  padding: 6% 0;
-  /* -8px -12px 5px; */
   line-height: 141%;
+  padding: 6% 0;
 }
 
 #about-me {
-  /* border: solid 1px; */
+  margin-left: auto;
   max-width: 44%;
   text-align: justify;
-
-  margin-left: auto;
 }
 
 #about-me p {
@@ -123,37 +121,46 @@ h1 , h2 {
 }
 
 #skills {
-  margin-left: 10%;
   margin-bottom: 7%;
+  margin-left: 10%;
 }
 
 #emphasis {
   text-align: center;
-  /* margin-left: 2%; */
   margin-top: 6%;
 }
 
-#section-project-container {
+#projects-title {
   text-align: center;
-  margin: auto;
+  margin-top: 40px;
 }
 
-#projects-group-01 {
+#section-projects-container {
   display: flex;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-#projects-group-01 img {
-  width: 50%;
+.project-unit-container {
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+  display: flex;
+  flex-direction: column;
+  margin: 5% 1%;
+  padding: 2%;
+  width: 310px;
 }
 
-.projects {
-  max-width: 30%;
-  margin: auto 3%;
-}
-
-.projects p {
+.project-unit-container p {
   text-align: justify;
+}
+
+.project-unit-container img {
+  border-radius: 3px;
+  box-shadow: 0px 0px 9px grey;
+  margin: 9% 0;
 }
 
 
