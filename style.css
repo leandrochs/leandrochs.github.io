@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(229 229 225);
   font-family: sans-serif;
 }
 
@@ -14,155 +14,197 @@ h1 , h2 {
 
 #header-container {
   align-items: center;
-  background-color: rgb(3, 107, 82);
-  border-bottom: 7px solid rgb(47, 193, 140);
+  background-color: rgb(225, 225, 220);
+  border-bottom: solid 1px rgb(223, 221, 221);
   display: flex;
-  height: 10vh;
-  padding: 10px 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#left-midle-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#header-left-container {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
 }
 
 #title-container {
-  margin: auto;
-}
-
-#nav-container {
-  margin-left: auto;
-  margin-right: 7%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5%;
+  width: 450px;
 }
 
 #title {
-  color: rgb(253, 255, 255);
-  letter-spacing: 2.5px;
+  color: #002776;
 }
 
-#nav {
-  color: rgb(253, 255, 255);
-  font-size: 18px;
-  margin-left: 72px;
+#nav-header-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .link {
-  color: rgb(257, 255, 255);
-  letter-spacing: 0.7px;
+  display: flex;
+  margin-right: 0.8em;
   text-decoration: none;
 }
 
-#presentation-container {
+main {
+  margin: 0 15%;
+  padding-top: 1%;
+}
+
+#front-cover-container {
+  margin-top: 15%;
+}
+
+#front-cover {
   align-items: center;
+  background-color: #ffdf00;
   display: flex;
-  margin: 7% auto;
+  justify-content: center;
+  min-height: 390px;
+  min-width: 200px;
   text-align: center;
 }
 
-#profile-picture-container {
-  margin: 0 72px 15px 18%;
+strong {
+  color: #002776;
+  font-size: 2em;
+}
+
+strong h1 p {
+  font-size: 73%;
+}
+
+#front-cover-profile-picture {
+  align-items: center;
+  background: rgb(229, 229, 225);
+  background: linear-gradient(0deg, rgba(229,229,225,1) 60%, rgba(255,223,0,1) 60%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 #profile-picture {
+  border: solid 3px rgba(0, 39, 118, 0.76);
   border-radius: 50%;
-  border: solid 3px rgb(3, 107, 82);
-  max-width: 267.2px;
-  width: 117%;
 }
 
-#initial-text-container {
-  align-items: center;
-  margin-left: auto;
+#skills-section {
+  margin-top: 5%;
+  padding-top: 5%;
 }
 
-#namassa {
-    margin: 0 100px 0 97px;
-}
-
-#aspaFrase {
-  display: flex;
-  margin: 0 20px;
-}
-
-#aspa {
-  color: rgb(47, 193, 140);
-  font-family: fantasy;
-  font-size: 90px;
-  margin: -24px 7px 0 3px;
-}
-
-#frase {
-  font-style: italic;
-  line-height: 180%;
-  margin-right: 8px;
-}
-
-#about-me-container {
-  background-color: rgb(222, 236, 237);
-  display: flex;
-  line-height: 141%;
-  padding: 6% 0;
-}
-
-#about-me {
-  margin-left: auto;
-  max-width: 44%;
-  text-align: justify;
-}
-
-#about-me p {
-  font-family: monospace;
-  font-size: large;
-  text-align: justify;
-}
-
-#about-me-title {
-  /* text-align: center; */
-}
-
-#skills-container {
-  margin-left: auto;
-  margin-right: 7%;
-}
-
-#skills {
-  margin-bottom: 7%;
-  margin-left: 10%;
-}
-
-#emphasis {
+H2, H3 {
+  color: #002776;
   text-align: center;
-  margin-top: 6%;
 }
 
-#projects-title {
-  text-align: center;
-  margin-top: 40px;
+H3 {
+  font-size: 1.5em;
+  padding-bottom: 4%;
 }
 
-#section-projects-container {
+.skills-group-container {
+  background-color: rgb(225, 225, 220);
+  border-radius: 8px;
+  border: solid 1px rgb(220, 220, 225);
+  margin: 6% 0;
+  padding: 5%;
+}
+
+.skills-list-container {
+  border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.project-unit-container {
-  align-items: center;
-  background-color: rgb(238, 238, 238);
-  border-radius: 5px;
-  box-shadow: 0 0 5px grey;
+.skills-list{
+  -webkit-box-shadow: 0px 0px 18px -2px rgba(0,39,118,0.85); 
+  box-shadow: 0px 0px 10px -2px rgba(0,39,118,0.25);
+  margin: 0.5%;
+  padding: 2% 1%;
+  text-align: center;
+  width: 200px;
+}
+
+.skills-list p {
+  color: #002776; 
+}
+
+.projects-group-container {
+  background-color: rgb(225, 225, 220);
+  border-radius: 8px;
+  border: solid 1px rgb(220, 220, 225);
+  margin: 6% 0;
+  padding: 5%;
+}
+
+.projects-list-container {
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  margin: 5% 1%;
-  padding: 2%;
-  width: 310px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.project-unit-container p {
-  text-align: justify;
-}
-
-.project-unit-container img {
+.project-container{
+  -webkit-box-shadow: 0px 0px 18px -2px rgba(0,39,118,0.85); 
+  align-items: center;
+  background-size: cover;
   border-radius: 3px;
-  box-shadow: 0px 0px 9px grey;
-  margin: 9% 0;
+  box-shadow: 0px 0px 10px -2px rgba(0,39,118,0.25);
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin: 3% 0.5%;
+  opacity: 0.3;
+  padding: 2% 1%;
+  text-decoration: none;
+  width: 430px;
+} 
+
+#personal {
+  background: url(./home-imgs/projetos-pessoais-p-img.jpg);
+  background-size: cover;
+  margin-bottom: 4%;
+  background-repeat: no-repeat;
 }
 
+#study {
+  background: url(./home-imgs/projetos-de-estudo-p-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-container H4 {
+  color: #021d53;
+  font-size: 1.4em;
+  opacity: 1;
+  text-shadow: 
+  -1px -1px 0px rgb(220, 220, 225),
+  -1px 1px 0px rgb(220, 220, 225),                   
+   1px -1px 0px rgb(220, 220, 225),                  
+   1px 0px 0px rgb(220, 220, 225);
+
+}
+
+.project-container:hover {
+  font-size: 1.05em;
+  opacity: 0.8;
+  transition: 0.3s;
+}
 
 #footer {
   margin: 30% -12px 0;
@@ -170,21 +212,15 @@ h1 , h2 {
 }
 
 #phrase {
-  background-color: rgb(68, 73, 85);
+  background-color: #3b3b3b;
   margin-top: 5%;
-  padding: 2.2% 0;
-}
-
-#phrase a {
-  color: rgb(253, 251, 251);
-  font-size: 12px;
-  overflow: hidden;
-  text-decoration: none;
+  padding: 0.5% 0;
 }
 
 #signature {
-  background-color: rgb(60, 64, 74);
-  color: rgb(157, 162, 173);
+  background-color: #2f2f2f;
+  color: rgb(225, 225, 220);
   font-size: 12px;
+  letter-spacing: 0.25em;
   padding: 3.3% 0;
 }
