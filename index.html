@@ -6,7 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Leandro Silva | Full Stack Developer</title>
     <link rel="shortcut icon" href="./home-imgs/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./mobile.css" media="screen and (max-width: 631px)">
+    <link rel="stylesheet" href="./tablet.css" media="screen and (max-width: 800px)  and (min-width: 631px)">
+    <link rel="stylesheet" href="./style.css" media="screen and (min-width: 800px)">
   </head>
   <body>
 		<header id="header-container">
@@ -16,14 +18,14 @@
         </div>
         <div id="header-midle-container">
           <div id="title-container">
-            <h1 id="title">{ Portfólio } = Leandro Silva</h1>
+            <!-- <h1 id="title">{ Portfólio } = Leandro Silva</h1> -->
+            <h1 class="title-mobile">Portfólio</h1>
           </div>
         </div>
       </div>
       <div id="header-right-container">
           <nav id="nav-header-container">
             <a class="link" href="https://leandrochs.github.io/" target="_blank">Home</a><p class="link">|</p> 
-            <!-- <a class="link" href="https://leandrochs.github.io/projetos" target="_blank">Projetos</a><p class="link">|</p> -->
             <a class="link" href="#before-projects-section">Projetos</a><p class="link">|</p>
             <a class="link" href="https://leandrochs.github.io/#contacts" target="_blank">Contato</a>
           </nav>
@@ -36,6 +38,7 @@
           <div id="front-cover-profile-picture">
           <img id="profile-picture" src="./home-imgs/perfil-p.jpeg" alt="Foto de Perfil">
           </div>
+          <p class="title-mobile">Leandro Silva</p>
         </div>
       </section>
       <section id="skills-section">
