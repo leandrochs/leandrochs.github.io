@@ -1,0 +1,17 @@
+.Header-header-container {
+  border: solid 1px red;
+  background-color: black;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.Header-div-Link-container {
+  /* border: solid 1px blue; */
+  padding-left: 30px;
+}
+
+.Header-Link {
+  color: white;
+  text-decoration: none;
+}
