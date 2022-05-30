@@ -44,7 +44,7 @@ export default function Carousel(props) {
 
   const { displayRef, setDisplayName } = useContext(Context);
 
-  const [settings, setSettings] = useState(defaultSettings);
+  const [settings] = useState(defaultSettings);
 
   function onClick(name) {
     displayRef.current.scrollIntoView({ behavior: 'smooth' });

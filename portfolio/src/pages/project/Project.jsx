@@ -1,15 +1,9 @@
-import React, { useContext, useEffect } from 'react';
-import { Context } from '../../context';
+import React from 'react';
 
 import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 
 export default function Project() {
-  // const { pageName, setPageName } = useContext(Context);
-
-  // useEffect(() => {
-  //   setPageName('novo nomedddd')
-  // }, [setPageName]);
 
   return (
     <main>
