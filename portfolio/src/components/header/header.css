@@ -1,13 +1,22 @@
-.Header-header-container {
-  border: solid 1px red;
-  background-color: black;
-  height: 2rem;
+.Header-header-container-top {
+  position: fixed;
+  height: 2.4rem;
   display: flex;
   align-items: center;
 }
 
+.Header-header-container {
+  background-color: rgb(27, 25, 25);
+  position: fixed;
+  height: 2.4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 2px rgb(44, 54, 116);
+  z-index: 999;
+}
+
 .Header-div-Link-container {
-  /* border: solid 1px blue; */
   padding-left: 30px;
 }
 
