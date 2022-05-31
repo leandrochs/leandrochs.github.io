@@ -1,11 +1,14 @@
+.slick-dots {
+  /* display: none !important; */
+}
+
 .Responsive-title-slider-container {
-  /* border: solid red 1px; */
+  /* border: solid yellow 5px; */
 }
 
 .Responsive-h2-title {
   color: white;
   margin: 30px;
-
 }
 
 .slider-container {
@@ -58,7 +61,7 @@
 
 .slick-arrow {
   /* position: absolute; */
-  width: 40px;
+  width: 54px;
   height: 310px;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 99;
@@ -69,7 +72,7 @@
   cursor: pointer;
   opacity: 0.2;
   transition: all ease 0.4s;
-  margin: 0 50px;
+  margin: 0 30px;
 }
 
 /* .slick-arrow:hover {
@@ -95,3 +98,4 @@
   height: 30px;
   background-repeat: no-repeat;
 }
+

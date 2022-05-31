@@ -8,28 +8,29 @@ import './carousel.css';
 
 export default function Carousel(props) {
   const defaultSettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 2,
     initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2,
+          dots: false,
         },
       },
       {
@@ -37,6 +38,7 @@ export default function Carousel(props) {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
         },
       },
     ],
@@ -69,7 +71,7 @@ export default function Carousel(props) {
                   alt='card'
                   className='Responsive-slider-card-image'
                 />
-                
+
                 <div className='Responsive-slider-card-name'>{name}</div>
               </div>
             </div>
