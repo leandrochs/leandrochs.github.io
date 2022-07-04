@@ -2,6 +2,7 @@ const todoList = require('../images/projectsImages/todoList.png');
 const pixelArt = require('../images/projectsImages/pixelArt.png');
 const colorGuess = require('../images/projectsImages/colorGuess.png');
 const misteryLetter = require('../images/projectsImages/misteryLetter.png');
+const trybewarts = require('../images/projectsImages/trybewarts.png');
 
 const dataProjects = [
   {
@@ -43,6 +44,26 @@ const dataProjects = [
       'Projeto Mistery Letter em que uma carta misteriosa é gerada com letras e fontes randômicas a partir de um texto digitado.',
     deploy: 'https://leandrochs.github.io/Mistery-Letter/',
     tags: ['#mistery-letter', '#html', '#javascript'],
+  },
+  {
+    type: 'Project',
+    name: 'Trybewarts',
+    image: trybewarts,
+    subTitle: 'Projeto Trybewarts',
+    description:
+      'Projeto Trybewarts em que foi criado um formulário completo.',
+    deploy: 'https://leandrochs.github.io/Trybewarts/',
+    tags: ['#trybewarts', '#formulario', '#javascript'],
+  },
+  {
+    type: 'Project',
+    name: 'Trybewarts',
+    image: trybewarts,
+    subTitle: 'Projeto Trybewarts',
+    description:
+      'Projeto Trybewarts em que foi criado um formulário completo.',
+    deploy: 'https://leandrochs.github.io/Trybewarts/',
+    tags: ['#trybewarts', '#formulario', '#javascript'],
   },
   
 ];
