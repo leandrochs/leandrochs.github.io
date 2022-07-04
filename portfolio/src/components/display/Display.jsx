@@ -1,11 +1,16 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState, useRef } from 'react';
 import { Context } from '../../context';
 import dataDisplay from '../../data/dataDisplay';
 import './display.css';
 
 export default function Display() {
-  const { displayName } = useContext(Context);
+  const displayRef = useRef(null);
   const [display, setDisplay] = useState('');
+  const { displayName, setDisplayRef } = useContext(Context);
+
+  useEffect(() => {
+    setDisplayRef(displayRef);
+  }, [setDisplayRef]);
 
   useEffect(() => {
     setDisplay(dataDisplay.find(({ name }) => name === displayName));
@@ -14,6 +19,7 @@ export default function Display() {
   if (!display) return;
   return (
     <main
+      ref={displayRef}
       className='Display-main-container'
       style={{ backgroundImage: `url(${display.image})` }}
     >
