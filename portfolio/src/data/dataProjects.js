@@ -7,7 +7,8 @@ const dataProjects = [
     image: todoList,
     subTitle: 'Projeto Todo List em html',
     description:
-      'Projeto Todo List em html',
+      'Projeto Todo List em html e lógica em Javascript.',
+    deploy: 'https://leandrochs.github.io/Todo-List/',
     tags: ['#todo-list', '#html', '#javascript'],
   },
   
