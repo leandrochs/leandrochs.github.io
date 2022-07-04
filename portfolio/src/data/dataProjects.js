@@ -1,6 +1,7 @@
 const todoList = require('../images/projectsImages/todoList.png');
 const pixelArt = require('../images/projectsImages/pixelArt.png');
 const colorGuess = require('../images/projectsImages/colorGuess.png');
+const misteryLetter = require('../images/projectsImages/misteryLetter.png');
 
 const dataProjects = [
   {
@@ -36,11 +37,11 @@ const dataProjects = [
   {
     type: 'Project',
     name: 'MISTERY LETTER',
-    image: colorGuess,
+    image: misteryLetter,
     subTitle: 'Projeto Mistery Letter',
     description:
       'Projeto Mistery Letter em que uma carta misteriosa é gerada com letras e fontes randômicas a partir de um texto digitado.',
-    deploy: 'https://leandrochs.github.io/Color-Guess/',
+    deploy: 'https://leandrochs.github.io/Mistery-Letter/',
     tags: ['#mistery-letter', '#html', '#javascript'],
   },
   
