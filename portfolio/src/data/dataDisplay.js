@@ -8,6 +8,7 @@ const trybewarts = require('../images/projectsImages/trybewarts.png');
 const jsUnitTests = require('../images/projectsImages/jsUnitTests.png');
 const zooFunctions = require('../images/projectsImages/zooFunctions.png');
 const shoppingCart = require('../images/projectsImages/shoppingCart.png');
+const tryunfo = require('../images/projectsImages/tryunfo.png');
 
 const dataDisplay = [
   {
@@ -374,18 +375,19 @@ const dataDisplay = [
     tags: ['#shoppingcart', '#api', '#testesunitarios'],
   },
 
+  {
+    name: 'SOLAR SYSTEM'
+  },
 
   {
     type: 'project',
-    name: 'SHOPPING CART',
-    image: shoppingCart,
-    subTitle: 'Projeto Shopping Cart',
-    description: 'Projeto para requisição da API do mercado livre utilizando html, css e javascript para funções assíncronas e testes unitários.',
-
-    github: 'https://github.com/leandrochs/Shopping-Cart',
-
-    deploy: 'https://leandrochs.github.io/Shopping-Cart/',
-    tags: ['#trybewarts', '#formulario', '#javascript'],
+    name: 'TRYUNFO',
+    image: tryunfo,
+    subTitle: 'Projeto Tryunfo',
+    description: 'Projeto para ler e atualizar estados de componentes, capturar eventos usando sintaxe React, criar formulários e transmitir informações por hereditariedade via callbacks.',
+    github: 'https://github.com/leandrochs/Tryunfo',
+    deploy: 'https://leandrochs.github.io/Tryunfo',
+    tags: ['#Tryunfo', '#formulario', '#react'],
   },
 ];
 
