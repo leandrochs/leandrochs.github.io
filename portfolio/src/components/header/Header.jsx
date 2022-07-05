@@ -22,7 +22,7 @@ export default function Header(props) {
     <header className={scrollTop}>
       <div className='Header-div-Link-container'>
         <Link to='/' className='Header-Link'>
-          {props.name ? props.name : 'LEANDRO SILVA'}
+          {props.name === 'LEANDRO SILVA' ? 'DEVELOPER' : 'LEANDRO SILVA'}
         </Link>
       </div>
     </header>
