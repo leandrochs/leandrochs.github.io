@@ -29,12 +29,26 @@ export default function Display() {
           <div className='Display-subtitle'>{display.subTitle}</div>
           <div className='Display-description'>{display.description}</div>
           <div className='Display-button-container'>
-            <a
-              href={`/${display.type}/${display.name}`}
-              className='Display-button'
-            >
-              💡 Saiba Mais
-            </a>
+            {!display.github && (
+              <a
+                href={`/${display.type}/${display.name}`}
+                className='Display-button'
+              >
+                💡 Saiba Mais
+              </a>
+            )}
+
+            {display.github && (
+              <a href={`${display.github}`} className='Display-button'>
+                Github
+              </a>
+            )}
+
+            {display.deploy && (
+              <a href={`${display.deploy}`} className='Display-button'>
+                Deploy
+              </a>
+            )}
           </div>
           <div className='Display-tags'>{display.tags.join(' ')}</div>
         </div>
