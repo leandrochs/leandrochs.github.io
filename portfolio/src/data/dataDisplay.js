@@ -1,5 +1,11 @@
 const profile = require('../images/profile.png');
 
+const todoList = require('../images/projectsImages/todoList.png');
+const pixelArt = require('../images/projectsImages/pixelArt.png');
+const colorGuess = require('../images/projectsImages/colorGuess.png');
+const misteryLetter = require('../images/projectsImages/misteryLetter.png');
+const trybewarts = require('../images/projectsImages/trybewarts.png');
+
 const dataDisplay = [
   {
     type: 'profile',
@@ -280,21 +286,72 @@ const dataDisplay = [
     tags: ['#developer', '#back-end', '#front-end'],
   },
 
+  // PROJETOS
+
   {
     type: 'project',
-    name: 'Nome do projeto',
-    image: '',
-    subTitle: '',
-    description: '',
-    tags: ['#technologie'],
+    name: 'TODO LIST',
+    image: todoList,
+    subTitle: 'Projeto Todo List em html',
+    description: 'Projeto Todo List em html e lógica em Javascript.',
+    github: 'https://github.com/leandrochs/Todo-List',
+    deploy: 'https://leandrochs.github.io/Todo-List/',
+    tags: ['#todo-list', '#html', '#javascript'],
   },
   {
-    type: 'technologie',
-    name: 'TECNOLOGIA 1',
-    image: '',
-    subTitle: 'TECNOLOGIA 1',
-    description: 'Alguma descrição',
-    tags: ['#developer', '#back-end', '#front-end'],
+    type: 'project',
+    name: 'PIXEL ART',
+    image: pixelArt,
+    subTitle: 'Projeto Pixel Art',
+    description:
+      'Projeto Pixel Art onde podemos ver a interação do usuário com elementos da tela por meio do DOM com html e Javascript.',
+    github: 'https://github.com/leandrochs/Pixels-Art',
+    deploy: 'https://leandrochs.github.io/Pixels-Art/',
+    tags: ['#pixel-art', '#dom', '#javascript'],
+  },
+  {
+    type: 'project',
+    name: 'COLOR GUESS',
+    image: colorGuess,
+    subTitle: 'Projeto Color Guess',
+    description:
+      'Projeto Color Guess em que temos um jogo de adivinhação de cores.',
+    github: 'https://github.com/leandrochs/Color-Guess',
+    deploy: 'https://leandrochs.github.io/Color-Guess/',
+    tags: ['#color-guess', '#jogo', '#javascript'],
+  },
+  {
+    type: 'project',
+    name: 'MISTERY LETTER',
+    image: misteryLetter,
+    subTitle: 'Projeto Mistery Letter',
+    description:
+      'Projeto Mistery Letter em que uma carta misteriosa é gerada com letras e fontes randômicas a partir de um texto digitado.',
+    github: 'https://github.com/leandrochs/Mistery-Letter',
+    deploy: 'https://leandrochs.github.io/Mistery-Letter/',
+    tags: ['#mistery-letter', '#html', '#javascript'],
+  },
+  {
+    type: 'project',
+    name: 'Trybewarts',
+    image: trybewarts,
+    subTitle: 'Projeto Trybewarts',
+    description: 'Projeto Trybewarts em que foi criado um formulário completo.',
+    github: 'https://github.com/leandrochs/Trybewarts',
+    deploy: 'https://leandrochs.github.io/Trybewarts/',
+    tags: ['#trybewarts', '#formulario', '#javascript'],
+  },
+  {
+    type: 'project',
+    name: 'proximo !!',
+    image: trybewarts,
+    subTitle: 'Projeto Trybewarts',
+    description: 'Projeto Trybewarts em que foi criado um formulário completo.',
+
+    github: 'https://github.com/leandrochs/Todo-List',
+
+    deploy: 'https://leandrochs.github.io/Trybewarts/',
+    tags: ['#trybewarts', '#formulario', '#javascript'],
   },
 ];
 
