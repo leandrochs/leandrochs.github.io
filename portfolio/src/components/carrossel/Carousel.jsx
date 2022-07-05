@@ -55,7 +55,7 @@ export default function Carousel(props) {
 
   return (
     <div className='Responsive-title-slider-container'>
-      <h2 className='Responsive-h2-title'> TECNOLOGIAS </h2>
+      <h2 className='Responsive-h2-title'> { props.title } </h2>
       <Slider {...settings} className='slider-container'>
         {dataDisplay
           .filter(({ type }) => type === `${props.type}`)
