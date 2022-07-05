@@ -5,6 +5,9 @@ const pixelArt = require('../images/projectsImages/pixelArt.png');
 const colorGuess = require('../images/projectsImages/colorGuess.png');
 const misteryLetter = require('../images/projectsImages/misteryLetter.png');
 const trybewarts = require('../images/projectsImages/trybewarts.png');
+const jsUnitTests = require('../images/projectsImages/jsUnitTests.png');
+const zooFunctions = require('../images/projectsImages/zooFunctions.png');
+const shoppingCart = require('../images/projectsImages/shoppingCart.png');
 
 const dataDisplay = [
   {
@@ -343,14 +346,45 @@ const dataDisplay = [
   },
   {
     type: 'project',
-    name: 'proximo !!',
-    image: trybewarts,
-    subTitle: 'Projeto Trybewarts',
-    description: 'Projeto Trybewarts em que foi criado um formulário completo.',
+    name: 'JS UNIT TESTS',
+    image: jsUnitTests,
+    subTitle: 'Projeto Js Unit Tests',
+    description: 'Projeto para aplicação de testes unitários.',
+    github: 'https://github.com/leandrochs/Js-Unit-Tests',
+    tags: ['#testes', '#testesunitarios', '#javascript'],
+  },
 
-    github: 'https://github.com/leandrochs/Todo-List',
+  {
+    type: 'project',
+    name: 'ZOO FUNCTIONS',
+    image: zooFunctions,
+    subTitle: 'Projeto Zoo Functions',
+    description: 'Projeto para aplicação Higher Order Function (ES6) e interpretação de testes unitários.',
+    github: 'https://github.com/leandrochs/Zoo-Functions',
+    tags: ['#zoofunctions', '#ES6', '#higherorderfunction'],
+  },
+  {
+    type: 'project',
+    name: 'SHOPPING CART',
+    image: shoppingCart,
+    subTitle: 'Projeto Shopping Cart',
+    description: 'Projeto para requisição da API do mercado livre utilizando html, css e javascript para funções assíncronas e testes unitários.',
+    github: 'https://github.com/leandrochs/Shopping-Cart',
+    deploy: 'https://leandrochs.github.io/Shopping-Cart/',
+    tags: ['#shoppingcart', '#api', '#testesunitarios'],
+  },
 
-    deploy: 'https://leandrochs.github.io/Trybewarts/',
+
+  {
+    type: 'project',
+    name: 'SHOPPING CART',
+    image: shoppingCart,
+    subTitle: 'Projeto Shopping Cart',
+    description: 'Projeto para requisição da API do mercado livre utilizando html, css e javascript para funções assíncronas e testes unitários.',
+
+    github: 'https://github.com/leandrochs/Shopping-Cart',
+
+    deploy: 'https://leandrochs.github.io/Shopping-Cart/',
     tags: ['#trybewarts', '#formulario', '#javascript'],
   },
 ];
