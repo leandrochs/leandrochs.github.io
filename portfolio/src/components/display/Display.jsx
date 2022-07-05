@@ -32,20 +32,32 @@ export default function Display() {
             {!display.github && (
               <a
                 href={`/${display.type}/${display.name}`}
+                target='_blank'
                 className='Display-button'
+                rel='noreferrer'
               >
                 💡 Saiba Mais
               </a>
             )}
 
             {display.github && (
-              <a href={`${display.github}`} className='Display-button'>
+              <a
+                href={`${display.github}`}
+                target='_blank'
+                className='Display-button'
+                rel='noreferrer'
+              >
                 Github
               </a>
             )}
 
             {display.deploy && (
-              <a href={`${display.deploy}`} className='Display-button'>
+              <a
+                href={`${display.deploy}`}
+                target='_blank'
+                className='Display-button'
+                rel='noreferrer'
+              >
                 Deploy
               </a>
             )}
