@@ -9,6 +9,7 @@ const jsUnitTests = require('../images/projectsImages/jsUnitTests.png');
 const zooFunctions = require('../images/projectsImages/zooFunctions.png');
 const shoppingCart = require('../images/projectsImages/shoppingCart.png');
 const tryunfo = require('../images/projectsImages/tryunfo.png');
+const reactTestingLibrary = require('../images/projectsImages/reactTestingLibrary.png');
 
 const dataDisplay = [
   {
@@ -388,6 +389,15 @@ const dataDisplay = [
     github: 'https://github.com/leandrochs/Tryunfo',
     deploy: 'https://leandrochs.github.io/Tryunfo',
     tags: ['#Tryunfo', '#formulario', '#react'],
+  },
+  {
+    type: 'project',
+    name: 'REACT TESTING LIBRARY',
+    image: reactTestingLibrary,
+    subTitle: 'Projeto React Testing Library',
+    description: 'Implementação de testes em um projeto já desenvolvido. Foram utilizados seletores (queries) da React-Testing-Library em testes automatizados, simulação de eventos, fluxos lógicos assíncronos, testes de inputs e mocks de APIs utilizando fetch.',
+    github: 'https://github.com/leandrochs/React-Testing-Library',
+    tags: ['#ReactTestingLibrary', '#testesAutomatizados', '#mocks'],
   },
 ];
 
