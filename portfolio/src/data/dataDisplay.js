@@ -11,6 +11,7 @@ const shoppingCart = require('../images/projectsImages/shoppingCart.png');
 const tryunfo = require('../images/projectsImages/tryunfo.png');
 const reactTestingLibrary = require('../images/projectsImages/reactTestingLibrary.png');
 const trybewallet = require('../images/projectsImages/trybewallet.png');
+const triviaReactRedux = require('../images/projectsImages/triviaReactRedux.png');
 
 const dataDisplay = [
   {
@@ -442,6 +443,17 @@ const dataDisplay = [
     github: 'https://github.com/leandrochs/Trybewallet',
     deploy: 'https://leandrochs.github.io/Trybewallet/',
     tags: ['#ReactTestingLibrary', '#testesAutomatizados', '#mocks'],
+  },
+  {
+    type: 'project',
+    name: 'TRIVIA REACT REDUX',
+    image: triviaReactRedux,
+    subTitle: 'Projeto Trivia-React-Redux',
+    description:
+      'Projeto de um jogo de perguntas e respostas com Trivia, React e Redux.',
+    github: 'https://github.com/leandrochs/Trivia-React-Redux',
+    deploy: 'https://leandrochs.github.io/Trivia-React-Redux/',
+    tags: ['#trivia', '#react', '#redux'],
   },
 ];
 
