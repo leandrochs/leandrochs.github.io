@@ -29,9 +29,9 @@ export default function Display() {
           <div className='Display-subtitle'>{display.subTitle}</div>
           <div className='Display-description'>{display.description}</div>
           <div className='Display-button-container'>
-            {!display.github && (
+            {display.externalLink && (
               <a
-                href={`/${display.type}/${display.name}`}
+                href={`${display.externalLink}`}
                 target='_blank'
                 className='Display-button'
                 rel='noreferrer'

@@ -19,6 +19,7 @@ const dataDisplay = [
     subTitle: 'Full Stack',
     description:
       'Um entusiasta das ciências naturais e do comportamento humano. Viu na tecnologia a possibilidade de resolver problemas de maneira rápida, eficiente e automatizável.',
+    externalLink: 'https://www.linkedin.com/in/leandrosi/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -29,6 +30,7 @@ const dataDisplay = [
     subTitle: 'Biblioteca CSS',
     description:
       'Kit de ferramentas de front-end poderoso, extensível e repleto de recursos. Crie e personalize com Sass, utilize sistemas e componentes de grade pré-construídos e dê vida a projetos com poderosos plugins JavaScript.',
+    externalLink: 'https://getbootstrap.com/',
     tags: ['#front-end', '#CSS', '#biblioteca'],
   },
   {
@@ -39,6 +41,7 @@ const dataDisplay = [
     subTitle: 'Estilo',
     description:
       'CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.',
+    externalLink: 'https://developer.mozilla.org/pt-BR/docs/Web/CSS',
     tags: ['#CSS', '#front-end', '#estilo'],
   },
   {
@@ -49,6 +52,7 @@ const dataDisplay = [
     subTitle: 'App',
     description:
       'React faz com que a criação de UIs interativas seja uma tarefa fácil. Crie views simples para cada estado na sua aplicação, e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam.',
+    externalLink: 'https://pt-br.reactjs.org/',
     tags: ['#biblioteca', '#interface', '#front-end'],
   },
   {
@@ -58,6 +62,7 @@ const dataDisplay = [
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
     subTitle: 'React-Redux',
     description: 'Um contêiner de estado previsível para aplicativos JS.',
+    externalLink: 'https://redux.js.org/',
     tags: ['#React', '#estados', '#front-end'],
   },
   {
@@ -68,6 +73,7 @@ const dataDisplay = [
     subTitle: 'Contêiner',
     description:
       'O Docker elimina tarefas de configuração repetitivas e é usado em todo o ciclo de vida de desenvolvimento de aplicativos - rápido, fácil e portátil.',
+    externalLink: 'https://www.docker.com/',
     tags: ['#desenvolvimento', '#back-end', '#front-end'],
   },
   {
@@ -77,6 +83,7 @@ const dataDisplay = [
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original-wordmark.svg',
     subTitle: 'Padronização',
     description: 'Encontra e corrija problemas em código JavaScript',
+    externalLink: 'https://eslint.org/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -87,6 +94,7 @@ const dataDisplay = [
     subTitle: 'Back-end',
     description:
       'O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.',
+    externalLink: 'https://expressjs.com/pt-br/',
     tags: ['#developer', '#back-end', '#node'],
   },
   {
@@ -97,6 +105,7 @@ const dataDisplay = [
     subTitle: 'Design',
     description:
       'Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows.',
+    externalLink: 'https://www.figma.com/',
     tags: ['#planejamento', '#front-end', '#projeto'],
   },
   {
@@ -107,6 +116,7 @@ const dataDisplay = [
     subTitle: 'Versionamento',
     description:
       'Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. ',
+    externalLink: 'https://git-scm.com/book/pt-br/v2',
     tags: ['#Desenvolvimento', '#Colaboração', '#Git'],
   },
   {
@@ -117,6 +127,7 @@ const dataDisplay = [
     subTitle: 'Versionamento',
     description:
       'GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.',
+    externalLink: 'https://github.com/',
     tags: ['#Desenvolvimento', '#Colaboração', '#GitHub'],
   },
   {
@@ -127,6 +138,7 @@ const dataDisplay = [
     subTitle: 'Deploy',
     description:
       'Heroku é uma plataforma que suporta várias linguagens de programação. Uma das primeiras plataformas em nuvem.',
+    externalLink: 'https://www.heroku.com/home',
     tags: ['#Deploy', '#nuvem', '#build'],
   },
   {
@@ -137,6 +149,7 @@ const dataDisplay = [
     subTitle: 'Web',
     description:
       'HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.',
+    externalLink: 'https://developer.mozilla.org/pt-BR/docs/Web/HTML',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -147,6 +160,7 @@ const dataDisplay = [
     subTitle: 'Linguagem de Programação',
     description:
       'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.',
+    externalLink: 'https://www.javascript.com/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -157,6 +171,7 @@ const dataDisplay = [
     subTitle: 'Tipagem',
     description:
       'TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.',
+    externalLink: 'https://www.typescriptlang.org/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -167,6 +182,7 @@ const dataDisplay = [
     subTitle: 'Testes',
     description:
       'Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade.',
+    externalLink: 'https://jestjs.io/pt-BR/',
     tags: ['#testes', '#javascript', '#cobertura'],
   },
   {
@@ -177,6 +193,7 @@ const dataDisplay = [
     subTitle: 'Testes',
     description:
       'O Mocha é uma estrutura de teste JavaScript para programas Node.js., com suporte ao navegador, testes assíncronos, relatórios de cobertura de testes e uso de qualquer biblioteca de asserções.',
+    externalLink: 'https://mochajs.org/',
     tags: ['#testes', '#javascript', '#cobertura'],
   },
   {
@@ -187,6 +204,7 @@ const dataDisplay = [
     subTitle: 'Notebook',
     description:
       'O Jupyter Notebook é uma ferramenta de Literate Computing, extremamente eficientes, pois permitem unir código e texto. Assim cada funcionalidade pode ser explicada detalhadamente. Você também pode gerar gráficos “vivos” gerados em tempo real dentro da ferramenta.',
+    externalLink: 'https://jupyter.org/',
     tags: ['#dados', '#python', '#ciência-de-dados'],
   },
   {
@@ -197,6 +215,7 @@ const dataDisplay = [
     subTitle: 'Sistema Operacional',
     description:
       'Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux.',
+    externalLink: 'http://releases.ubuntu.com/20.04/',
     tags: ['#Unix', '#Bash', '#Kernel'],
   },
   {
@@ -207,6 +226,7 @@ const dataDisplay = [
     subTitle: 'linguagem de marcação',
     description:
       'Markdown é uma linguagem de marcação que converte seu texto em HTML válido. Frequentemente usado para formatar arquivos README, escrever mensagens em fóruns de discussão online e criar rich text.',
+    externalLink: 'https://stackedit.io/',
     tags: ['#README', '#rich-text', '#documentação'],
   },
 
@@ -218,6 +238,7 @@ const dataDisplay = [
     subTitle: 'Bando de dados',
     description:
       'Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.',
+    externalLink: 'https://www.mongodb.com/pt-br',
     tags: ['#nosql', '#esquemas', '#JSON'],
   },
   {
@@ -228,6 +249,7 @@ const dataDisplay = [
     subTitle: 'Banco de dados',
     description:
       'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.',
+    externalLink: 'https://www.mysql.com/',
     tags: ['#sql', '#esquemas', '#JSON'],
   },
   {
@@ -238,6 +260,7 @@ const dataDisplay = [
     subTitle: 'ORM',
     description:
       'Sequelize é um ORM TypeScript e Node.js moderno para Postgres, MySQL, MariaDB, SQLite e SQL Server e muito mais. Apresentando suporte a transações sólidas, relações, eager and lazy loading, replicação de leitura e muito mais.',
+    externalLink: 'https://sequelize.org/',
     tags: ['#bando_de_dados', '#back-end', '#ORM'],
   },
 
@@ -249,6 +272,7 @@ const dataDisplay = [
     subTitle: 'Node Js',
     description:
       'Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.',
+    externalLink: 'https://nodejs.org/pt-br/docs/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -258,6 +282,7 @@ const dataDisplay = [
       'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg',
     subTitle: 'pacotes',
     description: 'npm é um gerenciador de pacotes para o Node.JS',
+    externalLink: 'https://docs.npmjs.com/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -268,6 +293,7 @@ const dataDisplay = [
     subTitle: 'Comunicação',
     description:
       'O Slack é um programa de mensagens projetado especificamente para o local de trabalho.',
+    externalLink: 'https://slack.com/intl/pt-br/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {
@@ -278,6 +304,7 @@ const dataDisplay = [
     subTitle: 'Metodologia Ágil',
     description:
       'Trello é um aplicativo de gerenciamento de projeto baseado na web.',
+    externalLink: 'https://trello.com/pt-BR',
     tags: ['#times', '#scrum', '#kanban'],
   },
   {
@@ -288,6 +315,7 @@ const dataDisplay = [
     subTitle: 'Editor',
     description:
       'O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código. ',
+    externalLink: 'https://code.visualstudio.com/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
 
@@ -361,7 +389,8 @@ const dataDisplay = [
     name: 'ZOO FUNCTIONS',
     image: zooFunctions,
     subTitle: 'Projeto Zoo Functions',
-    description: 'Projeto para aplicação Higher Order Function (ES6) e interpretação de testes unitários.',
+    description:
+      'Projeto para aplicação Higher Order Function (ES6) e interpretação de testes unitários.',
     github: 'https://github.com/leandrochs/Zoo-Functions',
     tags: ['#zoofunctions', '#ES6', '#higherorderfunction'],
   },
@@ -370,14 +399,15 @@ const dataDisplay = [
     name: 'SHOPPING CART',
     image: shoppingCart,
     subTitle: 'Projeto Shopping Cart',
-    description: 'Projeto para requisição da API do mercado livre utilizando html, css e javascript para funções assíncronas e testes unitários.',
+    description:
+      'Projeto para requisição da API do mercado livre utilizando html, css e javascript para funções assíncronas e testes unitários.',
     github: 'https://github.com/leandrochs/Shopping-Cart',
     deploy: 'https://leandrochs.github.io/Shopping-Cart/',
     tags: ['#shoppingcart', '#api', '#testesunitarios'],
   },
 
   {
-    name: 'SOLAR SYSTEM'
+    name: 'SOLAR SYSTEM',
   },
 
   {
@@ -385,7 +415,8 @@ const dataDisplay = [
     name: 'TRYUNFO',
     image: tryunfo,
     subTitle: 'Projeto Tryunfo',
-    description: 'Projeto para ler e atualizar estados de componentes, capturar eventos usando sintaxe React, criar formulários e transmitir informações por hereditariedade via callbacks.',
+    description:
+      'Projeto para ler e atualizar estados de componentes, capturar eventos usando sintaxe React, criar formulários e transmitir informações por hereditariedade via callbacks.',
     github: 'https://github.com/leandrochs/Tryunfo',
     deploy: 'https://leandrochs.github.io/Tryunfo',
     tags: ['#Tryunfo', '#formulario', '#react'],
@@ -395,8 +426,20 @@ const dataDisplay = [
     name: 'REACT TESTING LIBRARY',
     image: reactTestingLibrary,
     subTitle: 'Projeto React Testing Library',
-    description: 'Implementação de testes em um projeto já desenvolvido. Foram utilizados seletores (queries) da React-Testing-Library em testes automatizados, simulação de eventos, fluxos lógicos assíncronos, testes de inputs e mocks de APIs utilizando fetch.',
+    description:
+      'Implementação de testes em um projeto já desenvolvido. Foram utilizados seletores (queries) da React-Testing-Library em testes automatizados, simulação de eventos, fluxos lógicos assíncronos, testes de inputs e mocks de APIs utilizando fetch.',
     github: 'https://github.com/leandrochs/React-Testing-Library',
+    tags: ['#ReactTestingLibrary', '#testesAutomatizados', '#mocks'],
+  },
+  {
+    type: 'project',
+    name: 'TRYBEWALLET',
+    image: reactTestingLibrary,
+    subTitle: 'Projeto Trybewallet',
+    description:
+      'Projeto com ênfase em redux com desenvolvimento de store, reducers, actions, dispatchers e actions assíncronas.',
+    github: 'https://github.com/leandrochs/React-Testing-Library',
+    deploy: 'https://leandrochs.github.io/Tryunfo',
     tags: ['#ReactTestingLibrary', '#testesAutomatizados', '#mocks'],
   },
 ];
