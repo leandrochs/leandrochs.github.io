@@ -10,6 +10,7 @@ const zooFunctions = require('../images/projectsImages/zooFunctions.png');
 const shoppingCart = require('../images/projectsImages/shoppingCart.png');
 const tryunfo = require('../images/projectsImages/tryunfo.png');
 const reactTestingLibrary = require('../images/projectsImages/reactTestingLibrary.png');
+const trybewallet = require('../images/projectsImages/trybewallet.png');
 
 const dataDisplay = [
   {
@@ -434,12 +435,12 @@ const dataDisplay = [
   {
     type: 'project',
     name: 'TRYBEWALLET',
-    image: reactTestingLibrary,
+    image: trybewallet,
     subTitle: 'Projeto Trybewallet',
     description:
-      'Projeto com ênfase em redux com desenvolvimento de store, reducers, actions, dispatchers e actions assíncronas.',
-    github: 'https://github.com/leandrochs/React-Testing-Library',
-    deploy: 'https://leandrochs.github.io/Tryunfo',
+      'Projeto com ênfase em redux com desenvolvimento de store, reducers, actions, dispatchers e actions assíncronas para controle de gastos e conversão de moedas.',
+    github: 'https://github.com/leandrochs/Trybewallet',
+    deploy: 'https://leandrochs.github.io/Trybewallet/',
     tags: ['#ReactTestingLibrary', '#testesAutomatizados', '#mocks'],
   },
 ];
