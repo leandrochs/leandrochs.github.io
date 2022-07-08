@@ -13,6 +13,7 @@ const reactTestingLibrary = require('../images/projectsImages/reactTestingLibrar
 const trybewallet = require('../images/projectsImages/trybewallet.png');
 const triviaReactRedux = require('../images/projectsImages/triviaReactRedux.png');
 const starwarsPlanetsSearch = require('../images/projectsImages/starwarsPlanetsSearch.png');
+const dockerTodoList = require('../images/projectsImages/dockerTodoList.png');
 
 const dataDisplay = [
   {
@@ -449,7 +450,7 @@ const dataDisplay = [
     type: 'project',
     name: 'TRIVIA REACT REDUX',
     image: triviaReactRedux,
-    subTitle: 'Projeto Trivia-React-Redux',
+    subTitle: 'Projeto Trivia React Redux',
     description:
       'Projeto de um jogo de perguntas e respostas com Trivia, React e Redux.',
     github: 'https://github.com/leandrochs/Trivia-React-Redux',
@@ -462,10 +463,20 @@ const dataDisplay = [
     image: starwarsPlanetsSearch,
     subTitle: 'Projeto Starwars Planets Search',
     description:
-      'Projeto de buscas e filtros de resultados utilizando context API do para gerenciar estado, React Hooks customizados, useState, useContext e useEffect.',
+      'Projeto de buscas e filtros de resultados utilizando context API para gerenciar estado, React Hooks customizados, useState, useContext e useEffect.',
     github: 'https://github.com/leandrochs/Starwars-Planets-search',
     deploy: 'https://leandrochs.github.io/Starwars-Planets-search/',
     tags: ['#reacthooks', '#react', '#contextapi'],
+  },
+  {
+    type: 'project',
+    name: 'Docker Todo List',
+    image: dockerTodoList,
+    subTitle: 'Projeto Docker Todo List',
+    description:
+      'Projeto back-end em que se aplicou comandos dockers no CLI, criação de contêiners Docker para aplicações de front-end, back-end e testes, orquestrando os três contêineres utilizando o Docker compose.',
+    github: 'https://github.com/leandrochs/Docker-Todo-List',
+    tags: ['#backend', '#docker', '#conteiner'],
   },
 ];
 
