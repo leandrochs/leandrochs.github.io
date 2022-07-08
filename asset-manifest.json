@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.bd3eabaa.css",
-    "main.js": "/static/js/main.77651ba8.js",
+    "main.js": "/static/js/main.5fedd66e.js",
     "static/media/profile.png": "/static/media/profile.bb096894d86fb663ca08.png",
     "static/media/shoppingCart.png": "/static/media/shoppingCart.fa9d5220826373c93aed.png",
+    "static/media/starwarsPlanetsSearch.png": "/static/media/starwarsPlanetsSearch.a124fe2bbb49031de2de.png",
     "static/media/reactTestingLibrary.png": "/static/media/reactTestingLibrary.373cdc63385ba67504c4.png",
     "static/media/jsUnitTests.png": "/static/media/jsUnitTests.16a88d2cdbe24e6523f0.png",
     "static/media/trybewarts.png": "/static/media/trybewarts.bce6ed52387ee20e159f.png",
     "static/media/zooFunctions.png": "/static/media/zooFunctions.b80a1c57a31453601771.png",
     "static/media/tryunfo.png": "/static/media/tryunfo.7cff932cb37eeb2539f7.png",
+    "static/media/mysqlOneForAll.png": "/static/media/mysqlOneForAll.50bd170081635a88e3cc.png",
     "static/media/misteryLetter.png": "/static/media/misteryLetter.fda032f08a59118fda4d.png",
+    "static/media/trybewallet.png": "/static/media/trybewallet.b6fdba6b9d4816a8f84e.png",
     "static/media/pixelArt.png": "/static/media/pixelArt.6145c23c9599caba5797.png",
     "static/media/todoList.png": "/static/media/todoList.ef2ecb4890d9a3d75399.png",
+    "static/media/dockerTodoList.png": "/static/media/dockerTodoList.3c500095185b29636282.png",
     "static/media/colorGuess.png": "/static/media/colorGuess.0159830ddb524baa4a2a.png",
+    "static/media/triviaReactRedux.png": "/static/media/triviaReactRedux.e621722405c8466b82bc.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -20,10 +25,10 @@
     "static/media/arrow.svg": "/static/media/arrow.5cd3bc074809a272d1be.svg",
     "index.html": "/index.html",
     "main.bd3eabaa.css.map": "/static/css/main.bd3eabaa.css.map",
-    "main.77651ba8.js.map": "/static/js/main.77651ba8.js.map"
+    "main.5fedd66e.js.map": "/static/js/main.5fedd66e.js.map"
   },
   "entrypoints": [
     "static/css/main.bd3eabaa.css",
-    "static/js/main.77651ba8.js"
+    "static/js/main.5fedd66e.js"
   ]
 }
