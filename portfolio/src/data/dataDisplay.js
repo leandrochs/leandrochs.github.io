@@ -14,6 +14,7 @@ const trybewallet = require('../images/projectsImages/trybewallet.png');
 const triviaReactRedux = require('../images/projectsImages/triviaReactRedux.png');
 const starwarsPlanetsSearch = require('../images/projectsImages/starwarsPlanetsSearch.png');
 const dockerTodoList = require('../images/projectsImages/dockerTodoList.png');
+const mysqlOneForAll = require('../images/projectsImages/mysqlOneForAll.png');
 
 const dataDisplay = [
   {
@@ -477,6 +478,16 @@ const dataDisplay = [
       'Projeto back-end em que se aplicou comandos dockers no CLI, criação de contêiners Docker para aplicações de front-end, back-end e testes, orquestrando os três contêineres utilizando o Docker compose.',
     github: 'https://github.com/leandrochs/Docker-Todo-List',
     tags: ['#backend', '#docker', '#conteiner'],
+  },
+  {
+    type: 'project',
+    name: 'Mysql One For All',
+    image: mysqlOneForAll,
+    subTitle: 'Projeto Mysql One For All',
+    description:
+      'Projeto com ênfase em comandos de banco de dados mySql com modelagem, criação de tabelas, identificação de entidades, atributos e relacionamentos e aplicação de 1ª, 2ª e 3ª Forma Normal.',
+    github: 'https://github.com/leandrochs/Mysql-One-For-All',
+    tags: ['#backend', '#bancodedados', '#mysql'],
   },
 ];
 
