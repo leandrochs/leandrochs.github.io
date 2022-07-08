@@ -25,7 +25,7 @@ export default function Display() {
     >
       <div className='Display-column'>
         <div className='Display-line'>
-          <div className='Display-name'>{display.name}</div>
+          <div className='Display-name'>{display.name.toUpperCase()}</div>
           <div className='Display-subtitle'>{display.subTitle}</div>
           <div className='Display-description'>{display.description}</div>
           <div className='Display-button-container'>
