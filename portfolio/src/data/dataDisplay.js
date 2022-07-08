@@ -12,6 +12,7 @@ const tryunfo = require('../images/projectsImages/tryunfo.png');
 const reactTestingLibrary = require('../images/projectsImages/reactTestingLibrary.png');
 const trybewallet = require('../images/projectsImages/trybewallet.png');
 const triviaReactRedux = require('../images/projectsImages/triviaReactRedux.png');
+const starwarsPlanetsSearch = require('../images/projectsImages/starwarsPlanetsSearch.png');
 
 const dataDisplay = [
   {
@@ -454,6 +455,17 @@ const dataDisplay = [
     github: 'https://github.com/leandrochs/Trivia-React-Redux',
     deploy: 'https://leandrochs.github.io/Trivia-React-Redux/',
     tags: ['#trivia', '#react', '#redux'],
+  },
+  {
+    type: 'project',
+    name: 'STARWARS PLANETS SEARCH',
+    image: starwarsPlanetsSearch,
+    subTitle: 'Projeto Starwars Planets Search',
+    description:
+      'Projeto de buscas e filtros de resultados utilizando context API do para gerenciar estado, React Hooks customizados, useState, useContext e useEffect.',
+    github: 'https://github.com/leandrochs/Starwars-Planets-search',
+    deploy: 'https://leandrochs.github.io/Starwars-Planets-search/',
+    tags: ['#reacthooks', '#react', '#contextapi'],
   },
 ];
 
