@@ -72,7 +72,7 @@ export default function Carousel(props) {
                   className='Responsive-slider-card-image'
                 />
 
-                <div className='Responsive-slider-card-name'>{name}</div>
+                <div className='Responsive-slider-card-name'>{name.toUpperCase()}</div>
               </div>
             </div>
           ))}
