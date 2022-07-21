@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bd3eabaa.css",
-    "main.js": "/static/js/main.5fedd66e.js",
-    "static/media/profile.png": "/static/media/profile.bb096894d86fb663ca08.png",
+    "main.js": "/static/js/main.a4ccfb08.js",
+    "static/media/perfil.jpg": "/static/media/perfil.b1cc19b1fd21e818bca5.jpg",
     "static/media/shoppingCart.png": "/static/media/shoppingCart.fa9d5220826373c93aed.png",
     "static/media/starwarsPlanetsSearch.png": "/static/media/starwarsPlanetsSearch.a124fe2bbb49031de2de.png",
     "static/media/reactTestingLibrary.png": "/static/media/reactTestingLibrary.373cdc63385ba67504c4.png",
@@ -25,10 +25,10 @@
     "static/media/arrow.svg": "/static/media/arrow.5cd3bc074809a272d1be.svg",
     "index.html": "/index.html",
     "main.bd3eabaa.css.map": "/static/css/main.bd3eabaa.css.map",
-    "main.5fedd66e.js.map": "/static/js/main.5fedd66e.js.map"
+    "main.a4ccfb08.js.map": "/static/js/main.a4ccfb08.js.map"
   },
   "entrypoints": [
     "static/css/main.bd3eabaa.css",
-    "static/js/main.5fedd66e.js"
+    "static/js/main.a4ccfb08.js"
   ]
 }
