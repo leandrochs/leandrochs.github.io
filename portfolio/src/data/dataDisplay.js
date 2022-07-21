@@ -1,4 +1,4 @@
-const profile = require('../images/profile.png');
+const profile = require('../images/perfil.jpg');
 
 const todoList = require('../images/projectsImages/todoList.png');
 const pixelArt = require('../images/projectsImages/pixelArt.png');
