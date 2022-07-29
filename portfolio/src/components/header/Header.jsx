@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Context } from '../../context';
 import './header.css';
 
 export default function Header(props) {
   const [scrollTop, setScrollTop] = useState('Header-header-container-top');
+  const { setDisplayName } = useContext(Context);
 
   useEffect(() => {
     const scrollListener = () => {
@@ -18,10 +20,14 @@ export default function Header(props) {
     };
   }, []);
 
+  function onClick() {
+    setDisplayName('LEANDRO SILVA');
+  }
+
   return (
     <header className={scrollTop}>
       <div className='Header-div-Link-container'>
-        <Link to='/' className='Header-Link'>
+        <Link to='/' className='Header-Link' onClick={onClick}>
           {props.name === 'LEANDRO SILVA' ? 'DEVELOPER' : 'LEANDRO SILVA'}
         </Link>
       </div>
