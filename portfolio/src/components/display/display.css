@@ -63,6 +63,16 @@
   opacity: 1;
 }
 
+.display-button-message {
+  display: flex;
+  align-items: center;
+}
+
+.display-button-message img {
+  margin-right: 0.3em;
+  height: 20px;
+}
+
 .Display-tags {
   margin-top: 15px;
   font-size: 14px;

@@ -24,7 +24,8 @@ const dataDisplay = [
     subTitle: 'Full Stack',
     description:
       'Um entusiasta das ciências naturais e do comportamento humano. Viu na tecnologia a possibilidade de resolver problemas de maneira rápida, eficiente e automatizável.',
-    externalLink: 'https://www.linkedin.com/in/leandrosi/',
+    github: 'https://github.com/leandrochs',
+    LinkedIn: 'https://www.linkedin.com/in/leandrosi/',
     tags: ['#developer', '#back-end', '#front-end'],
   },
   {

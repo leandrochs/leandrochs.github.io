@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState, useRef } from 'react';
 import { Context } from '../../context';
 import dataDisplay from '../../data/dataDisplay';
 import './display.css';
+import world from '../../images/world.svg';
 
 export default function Display() {
   const displayRef = useRef(null);
@@ -47,7 +48,30 @@ export default function Display() {
                 className='Display-button'
                 rel='noreferrer'
               >
-                Github
+                <div className='display-button-message'>
+                  <img
+                    alt='logo Github'
+                    src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+                  />
+                  Github
+                </div>
+              </a>
+            )}
+
+            {display.LinkedIn && (
+              <a
+                href={`${display.LinkedIn}`}
+                target='_blank'
+                className='Display-button'
+                rel='noreferrer'
+              >
+                <div className='display-button-message'>
+                  <img
+                    alt='logo Github'
+                    src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg'
+                  />
+                  LinkedIn
+                </div>
               </a>
             )}
 
@@ -58,7 +82,10 @@ export default function Display() {
                 className='Display-button'
                 rel='noreferrer'
               >
-                Deploy
+                <div className='display-button-message'>
+                  <img alt='web' src={world} />
+                  Deploy
+                </div>
               </a>
             )}
           </div>
